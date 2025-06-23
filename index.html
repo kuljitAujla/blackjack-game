@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h1>Blackjack</h1>
+    <h2>Dealer must stand on all 17</h2>
+    <p id="message-el"><i>Want to play a round?</i></p>
+    <p id="cards-el">Cards: </p>
+    <p id="sum-el">Sum: </p>
+    <p id="dealerCards-el">Dealer: </p>
+    <p id="dealerSum-el">Dealer Sum: </p>
+    <button id="start-btn" onclick="startGame()">START GAME</button>
+    <button id="hit-btn" onclick="hit()" style="display: none;">HIT</button>
+    <button id="stand-btn" onclick="stand()" style="display: none;">STAND</button>
+    <button id="playAgain-btn" onclick="playAgain()" style="display: none;">PLAY AGAIN</button>
+    <script src="index.js"></script>
+  </body>
+</html>

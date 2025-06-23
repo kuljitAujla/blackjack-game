@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-image: url(images/table.png);
+  background-size: cover;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+h2 {
+  color: goldenrod;
+  font-size: 20px;
+}
+
+p {
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+button {
+  padding: 12px 70px;
+  font-size: 30px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.25s;
+  font-weight: bold;
+  color: rgb(42, 117, 15);
+  background-color: goldenrod;
+}
+
+
+#start-btn:hover {
+  background-color: rgb(231, 192, 93);
+}
+
+#start-btn:active {
+  background-color: rgb(255, 183, 0);
+}
+
+#hit-btn {
+  background-color: rgb(22, 191, 22);
+  margin-right: 5px;
+}
+
+#stand-btn {
+  background-color: rgb(227, 54, 54);
+  margin-left: 5px;
+}
